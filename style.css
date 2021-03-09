@@ -34,7 +34,7 @@ header h1 {
 }
 
 .box {
-    height: 200px;
+    height: 230px;
     width: 25%;
     background-color: rgb(181, 215, 228);
     float: left;
@@ -59,7 +59,16 @@ header h1 {
     display: none;
 }
 
-.uncovered-text {
+.text {
+    position: absolute;
+    bottom: 20px;
+    right: 2.5px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.uncovered-submarine {
     position: absolute;
     bottom: 20px;
     right: 2.5px;
@@ -67,6 +76,23 @@ header h1 {
     width: 100%;
     text-align: center;
 }
+
+.submarine {
+    color: magenta;
+}
+
+.air-baloon {
+    color: orange;
+}
+
+.bicycle {
+    color: chartreuse;
+}
+
+.cruise-ship {
+    color: cyan;
+}
+
 
 .line::after {
     content: "";
@@ -97,6 +123,7 @@ header h1 {
     background-size: contain;
     display: none;
     border-radius: 20px;
+    padding: 0 20px 40px 20px;
 }
 
 .card-cover {
